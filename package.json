@@ -1,0 +1,8 @@
+{
+  "name": "project-name-goes-here",
+  "version": "1.0.0",
+  "dependencies": {
+    "ejs": "^2.5.8",
+    "express": "^4.16.3"
+  }
+}
