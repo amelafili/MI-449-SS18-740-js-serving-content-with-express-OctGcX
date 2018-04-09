@@ -7,3 +7,7 @@ body {
 .div {
   background-color: white;
 }
+
+img {
+  align-content: center;
+}
