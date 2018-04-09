@@ -9,5 +9,5 @@ body {
 }
 
 img {
-  align-content: center;
+  display: block;
 }
