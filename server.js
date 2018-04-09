@@ -19,7 +19,6 @@ CreateArticle({
   content: 'Turtles are reptiles that have the ability to travel on land and water.',
   image: '/images/turtle-facts.jpg'
 })
-
 CreateArticle({
   title: 'Information about Turtles',
   url: '/info/',
@@ -27,7 +26,6 @@ CreateArticle({
   link: 'for more information on turtles, visit' +
   'https://www.livescience.com/52361-turtle-facts.html'
 })
-
 CreateArticle({
   title: 'Different Kinds',
   url: '/kinds/',
