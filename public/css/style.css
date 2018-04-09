@@ -1,11 +1,16 @@
 body {
-  background-image: "/images/background.jpg";
+  background-image: url("/images/background.jpg");
   margin: 0 auto;
   color: white;
 }
 
-.div {
+.content {
   background-color: white;
+  margin: 0 auto;
+}
+
+header {
+  background-image: url("/images/header_bg.");
 }
 
 img {
