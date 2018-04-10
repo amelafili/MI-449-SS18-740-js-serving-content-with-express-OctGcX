@@ -12,7 +12,7 @@ function createArticle (article) {
   articles[id] = article
 }
 
-CreateArticle({
+createArticle({
   title: 'Sea Turtle',
   url: '/sea-turtle',
   image: '/images/sea-turtle.jpg',
@@ -21,7 +21,7 @@ CreateArticle({
   habitat: 'Oceans and beaches.',
   link: 'http://www.seaturtle.org/'
 })
-CreateArticle({
+createArticle({
   title: 'Painted Turtle',
   url: '/painted-turtle',
   image: '/images/painted-turtle.jpg',
@@ -30,7 +30,7 @@ CreateArticle({
   habitat: 'Freshwater areas such as lakes and ponds.',
   link: 'http://thepaintedturtle.org/'
 })
-CreateArticle({
+createArticle({
   title: 'Common Box Turtle',
   url: '/box-turtle',
   image: '/images/box-turtle.jpg',
