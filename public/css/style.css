@@ -5,9 +5,11 @@ img {
   width: 500px;
 }
 
-.navigation {
-  text-align: center;
-  list-style-type: none;
+.img1 {
+  display: block;
+  margin: 0 auto;
+  height: 300px;
+  width: 500px;
 }
 
 h2 {
@@ -16,15 +18,20 @@ h2 {
   text-align: center;
 }
 
+.content {
+  background-color: white;
+  margin: 0 auto;
+  width: 50%;
+}
+
 body {
   background-image: url("/images/background.jpg");
   margin: 0 auto;
 }
 
-.content {
-  background-color: white;
-  margin: 0 auto;
-  width: 50%;
+.navigation {
+  text-align: center;
+  list-style-type: none;
 }
 
 h1 {
