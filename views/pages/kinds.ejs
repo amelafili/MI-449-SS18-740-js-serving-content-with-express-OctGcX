@@ -1,8 +1,12 @@
 <% include ../partials/head %>
 <% include ../partials/header %>
   <article>
-    <h2>Check out this website to find out more about turtles! <a href="<%= articles.title %>"</h2>
-    <p><%= articles.whatsATurtle %></p>
-    <p>This is a turtle: <img src="/images/<% articles.image %>"></p>
+    <h2>
+      Click this link to check out the different kinds of turtles! +
+      <a href="<%= articles.title %>"
+      </h2>
+    <p>
+      <a href="<%= articles.link %>" alt="turtle info"</a>
+    </p>
   </article>
 <% include ../partials/footer %>
