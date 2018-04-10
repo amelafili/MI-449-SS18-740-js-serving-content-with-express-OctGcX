@@ -41,25 +41,25 @@ createArticle({
 })
 
 app.get('/', function (request, response) {
-  response.render('/pages/index', {
+  response.render('pages/index', {
     articles: articles
   })
 })
 
 app.get('/reason', function (request, response) {
-  response.render('/pages/turtle', {
+  response.render('pages/turtle', {
     articles: articles
   })
 })
 
 app.get('/info', function (request, response) {
-  response.render('/pages/turtle', {
+  response.render('pages/turtle', {
     articles: articles
   })
 })
 
 app.get('/kinds', function (request, response) {
-  response.render('/pages/turtle', {
+  response.render('pages/turtle', {
     articles: articles
   })
 })
