@@ -31,7 +31,7 @@ h2 {
 }
 
 .content {
-  background-color: url("header_bg.jpg");
+  background-color: url("/images/header_bg.jpg");
   margin: 0 auto;
   width: 50%;
   padding: 40px;
