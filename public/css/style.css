@@ -70,15 +70,6 @@ a:visited {
   color: #40424a;
 }
 
-html,
-body, {
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-}
-
 header {
   margin: 10px;
   font-size: 60px;
