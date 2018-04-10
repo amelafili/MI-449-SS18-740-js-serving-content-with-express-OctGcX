@@ -6,9 +6,18 @@ img {
   padding: 10px;
 }
 
-.column {
-  float: left;
+.img1 {
+  display: block;
+  margin: 0 auto;
+  height: 300px;
+  width: 500px;
+}
+
+.content {
+  background-color: url("/images/header_bg.jpg");
+  margin: 0 auto;
   width: 50%;
+  padding: 40px;
 }
 
 .row::after {
@@ -17,24 +26,15 @@ img {
   clear: both;
 }
 
-.img1 {
-  display: block;
-  margin: 0 auto;
-  height: 300px;
-  width: 500px;
-}
-
 h2 {
   font-size: 30px;
   font-style: italic;
   text-align: center;
 }
 
-.content {
-  background-color: url("/images/header_bg.jpg");
-  margin: 0 auto;
+.column {
+  float: left;
   width: 50%;
-  padding: 40px;
 }
 
 body {
