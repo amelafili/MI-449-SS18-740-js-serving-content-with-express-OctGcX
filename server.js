@@ -46,19 +46,19 @@ app.get('/', function (request, response) {
   })
 })
 
-app.get('/reason', function (request, response) {
+app.get('/sea-turtle', function (request, response) {
   response.render('pages/turtle', {
     articles: articles
   })
 })
 
-app.get('/info', function (request, response) {
+app.get('/painted-turtle', function (request, response) {
   response.render('pages/turtle', {
     articles: articles
   })
 })
 
-app.get('/kinds', function (request, response) {
+app.get('/box-turtle', function (request, response) {
   response.render('pages/turtle', {
     articles: articles
   })
