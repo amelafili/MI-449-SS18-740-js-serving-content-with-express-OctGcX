@@ -37,6 +37,10 @@ h2 {
   width: 50%;
 }
 
+.column1 {
+  background-color: #000;
+}
+
 body {
   background-image: url("/images/background.jpg");
   margin: 0 auto;
