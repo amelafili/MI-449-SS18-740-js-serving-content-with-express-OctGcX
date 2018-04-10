@@ -47,6 +47,7 @@ h2 {
 body {
   background-image: url("/images/background.jpg");
   margin: 0 auto;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
 .navigation {
@@ -66,6 +67,10 @@ li {
 
 a:visited {
   color: #40424a;
+}
+
+header {
+  margin: 10px;
 }
 
 .background1 {
