@@ -3,9 +3,9 @@
   <article>
     <img src="/images/<%= articles.image %>.jpg" alt="<%= articles.title%>">
     <h2><%= articles.title %></h2>
-    <p><span class="bold">Color:</span> <%= articles.color %></p>
-    <p><span class="bold">Length:</span> <%= articles.length %></p>
-    <p><span class="bold">Habitat:</span> <%= articles.habitat %></p>
-    <p><span class="bold">Link:</span> <%= articles.link %></p>
+    <p>Color: <%= articles.color %></p>
+    <p>Length: <%= articles.length %></p>
+    <p>Habitat: <%= articles.habitat %></p>
+    <p>Link:<%= articles.link %></p>
   </article>
 <% include ../partials/footer %>
