@@ -1,12 +1,17 @@
 body {
   background-image: url("/images/background.jpg");
   margin: 0 auto;
-  color: white;
 }
 
 .content {
   background-color: white;
   margin: 0 auto;
+}
+
+h2 {
+  font-size: 30px;
+  font-style: italic;
+  text-align: center;
 }
 
 header {

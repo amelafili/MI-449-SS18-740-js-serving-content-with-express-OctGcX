@@ -18,7 +18,8 @@ CreateArticle({
   image: '/images/sea-turtle.jpg',
   color: 'Ranges from green to greenish-brown to black.',
   length: '5 feet',
-  habitat: 'Oceans and beaches.'
+  habitat: 'Oceans and beaches.',
+  link: 'http://www.seaturtle.org/'
 })
 CreateArticle({
   title: 'Painted Turtle',
@@ -26,7 +27,8 @@ CreateArticle({
   image: '/images/painted-turtle.jpg',
   color: 'Green to black shell with red and grey.',
   length: '4-10 inches',
-  habitat: 'Freshwater areas such as lakes and ponds.'
+  habitat: 'Freshwater areas such as lakes and ponds.',
+  link: 'http://thepaintedturtle.org/'
 })
 CreateArticle({
   title: 'Common Box Turtle',
@@ -34,7 +36,8 @@ CreateArticle({
   image: '/images/box-turtle.jpg',
   color: 'Dark colors such as dark brown with vibrant spots, such as yellow.',
   length: '4.5 inches',
-  habitat: 'Open forests and wet fields.'
+  habitat: 'Open forests and wet fields.',
+  link: 'http://www.boxturtles.com/'
 })
 
 app.get('/', function (request, response) {
