@@ -15,7 +15,7 @@ function createArticle (article) {
 createArticle({
   title: 'Sea Turtle',
   url: '/sea-turtle',
-  image: '/images/sea-turtle.jpg',
+  image: '/images/sea-turtle.jpg/',
   color: 'Ranges from green to greenish-brown to black.',
   length: '5 feet',
   habitat: 'Oceans and beaches.',
@@ -24,7 +24,7 @@ createArticle({
 createArticle({
   title: 'Painted Turtle',
   url: '/painted-turtle',
-  image: '/images/painted-turtle.jpg',
+  image: '/images/painted-turtle.jpg/',
   color: 'Green to black shell with red and grey.',
   length: '4-10 inches',
   habitat: 'Freshwater areas such as lakes and ponds.',
