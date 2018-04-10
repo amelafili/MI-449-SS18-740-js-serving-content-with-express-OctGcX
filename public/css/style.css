@@ -5,6 +5,17 @@ img {
   width: 500px;
 }
 
+.column {
+  float: left;
+  width: 50%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .img1 {
   display: block;
   margin: 0 auto;
