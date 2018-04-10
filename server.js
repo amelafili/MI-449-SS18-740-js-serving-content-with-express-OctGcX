@@ -28,7 +28,7 @@ createArticle({
   color: 'Green to black shell with red and grey.',
   length: '4-10 inches',
   habitat: 'Freshwater areas such as lakes and ponds.',
-  link: 'http://thepaintedturtle.org/'
+  link: 'http://www.thepaintedturtle.org/'
 })
 createArticle({
   title: 'Common Box Turtle',
