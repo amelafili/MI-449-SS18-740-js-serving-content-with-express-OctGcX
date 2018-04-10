@@ -39,9 +39,10 @@ h2 {
 
 .column1 {
   background-color: #fff;
+  display: block;
   margin: 0 auto;
-  width: 75%;
   height: 500px;
+  width: 500px;
   padding: 10px;
 }
 
