@@ -54,6 +54,7 @@ h1 {
 
 li {
   display: inline;
+  padding: 5px;
 }
 
 a:visited {
