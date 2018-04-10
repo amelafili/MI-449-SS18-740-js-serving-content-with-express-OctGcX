@@ -37,15 +37,6 @@ h2 {
   width: 50%;
 }
 
-.column1 {
-  background-color: #fff;
-  display: block;
-  margin: 0 auto;
-  height: 500px;
-  width: 500px;
-  padding: 10px;
-}
-
 body {
   background-image: url("/images/background.jpg");
   margin: 0 auto;
