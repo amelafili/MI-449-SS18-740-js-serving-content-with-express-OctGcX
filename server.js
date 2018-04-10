@@ -33,7 +33,7 @@ createArticle({
 createArticle({
   title: 'Common Box Turtle',
   url: '/box-turtle',
-  image: '/images/box-turtle.jpg',
+  image: 'images/box-turtle.jpg',
   color: 'Dark colors such as dark brown with vibrant spots, such as yellow.',
   length: '4.5 inches',
   habitat: 'Open forests and wet fields.',
