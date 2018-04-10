@@ -1,9 +1,11 @@
 <% include ../partials/head %>
 <% include ../partials/header %>
   <article>
+    <img src="/images/<% articles.image %>">
     <h2><%= articles.title %></h2>
     <p><%= articles.content %></p>
-    <p>This is a turtle: <img src="/images/<% articles.image %>"></p>
-    <p><% articles.link %></p>
+    <p>Color: <%= articles.color %></p>
+    <p>Length: <%= articles.length %></p>
+    <p>Habitat: <%= articles.habitat %></p>
   </article>
 <% include ../partials/footer %>
