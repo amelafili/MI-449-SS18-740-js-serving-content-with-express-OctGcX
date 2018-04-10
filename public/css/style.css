@@ -14,7 +14,7 @@ img {
 }
 
 .content {
-  background-color: url("/images/header_bg.jpg");
+  background-image: url("/images/header_bg.jpg");
   margin: 0 auto;
   width: 50%;
   padding: 40px;
@@ -66,5 +66,5 @@ a:hover {
 }
 
 header {
-  background-image: url("/images/header_bg.");
+  background-image: url("/images/header_bg.jpg");
 }

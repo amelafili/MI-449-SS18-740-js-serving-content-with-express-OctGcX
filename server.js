@@ -46,21 +46,12 @@ app.get('/', function (request, response) {
   })
 })
 
-app.get('/sea-turtle', function (request, response) {
-  response.render('pages/turtle', {
-    articles: articles
-  })
-})
-
-app.get('/painted-turtle', function (request, response) {
-  response.render('pages/turtle', {
-    articles: articles
-  })
-})
-
-app.get('/box-turtle', function (request, response) {
-  response.render('pages/turtle', {
-    articles: articles
+Object.keys(articles).forEach(function (id) {
+  var article = articles[id]
+  app.get(article.url, function (request, response) {
+    response.render('pages/turtle', {
+      article: article
+    })
   })
 })
 
