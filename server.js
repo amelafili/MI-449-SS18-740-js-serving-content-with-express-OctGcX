@@ -49,22 +49,19 @@ app.get('/', function (request, response) {
 
 app.get('/sea-turtle', function (request, response) {
   response.render('pages/turtle', {
-    articles: articles,
-    article: articles[0]
+    articles: articles
   })
 })
 
 app.get('/painted-turtle', function (request, response) {
   response.render('pages/turtle', {
-    articles: articles,
-    article: articles[1]
+    articles: articles
   })
 })
 
 app.get('/box-turtle', function (request, response) {
   response.render('pages/turtle', {
-    articles: articles,
-    article: articles[2]
+    articles: articles
   })
 })
 
