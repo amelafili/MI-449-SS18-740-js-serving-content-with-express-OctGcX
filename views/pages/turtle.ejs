@@ -2,7 +2,6 @@
 <% include ../partials/head %>
 <% include ../partials/header %>
 <div class="row">
-  <% Object.keys(articles).forEach(function (id) { %>
   <article>
     <div class="column">
       <img src="/images/<%= articles.image %>" alt="<%= articles.title %>">
@@ -17,6 +16,5 @@
       </div>
     </div>
   </article>
-  <% }) %>
 </div>
 <% include ../partials/footer %>

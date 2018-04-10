@@ -1,8 +1,10 @@
 <% include ../partials/head %>
 <% include ../partials/header %>
-<article>
-  <div class="content">
-    <img src="/images/turtles.jpg" class="img1" alt="turtles">
-  </div>
-</article>
-<% include ../partials/footer %>
+<% Object.keys(articles).forEach(function (id) { %>
+  <article>
+    <div class="content">
+      <img src="/images/turtles.jpg" class="img1" alt="turtles">
+    </div>
+  </article>
+  <% }) %>
+  <% include ../partials/footer %>
