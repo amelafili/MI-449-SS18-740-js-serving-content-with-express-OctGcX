@@ -16,6 +16,13 @@ img {
 .content {
   background-image: url("/images/header_bg.jpg");
   margin: 0 auto;
+  width: 90%;
+  padding: 40px;
+}
+
+.content1 {
+  background-image: url("/images/header_bg.jpg");
+  margin: 0 auto;
   width: 50%;
   padding: 40px;
 }
@@ -61,10 +68,10 @@ a:visited {
   color: #40424a;
 }
 
-a:hover {
-  color: white;
+.background1 {
+  background-color: white;
 }
 
-header {
-  background-image: url("/images/header_bg.jpg");
+a:hover {
+  color: white;
 }

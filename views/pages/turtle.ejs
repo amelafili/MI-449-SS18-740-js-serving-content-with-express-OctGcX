@@ -1,17 +1,21 @@
 <% include ../partials/head %>
 <% include ../partials/header %>
+<div class="content">
+  <div class="background1">
 <div class="row">
   <article>
-    <div class="column">
-      <img src="<%= article.image %>" alt="<%= article.title %>">
-    </div>
-    <div class="column">
+      <div class="column">
+        <img src="<%= article.image %>" alt="<%= article.title %>">
+      </div>
+      <div class="column">
         <h2><%= article.title %></h2>
         <p>Color: <%= article.color %></p>
         <p>Length: <%= article.length %></p>
         <p>Habitat: <%= article.habitat %></p>
         <p>Link: <%= article.link %></p>
-    </div>
+      </div>
   </article>
+</div>
+</div>
 </div>
 <% include ../partials/footer %>
