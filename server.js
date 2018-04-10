@@ -42,8 +42,7 @@ createArticle({
 
 app.get('/', function (request, response) {
   response.render('pages/index', {
-    articles: articles,
-    article: articles
+    articles: articles
   })
 })
 
