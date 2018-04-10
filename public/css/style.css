@@ -10,7 +10,7 @@ img {
   width: 50%;
 }
 
-.row {
+.row::after {
   content: "";
   display: table;
   clear: both;
