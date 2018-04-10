@@ -56,6 +56,10 @@ li {
   display: inline;
 }
 
+a:active {
+  color: green;
+}
+
 a:hover {
   color: white;
 }
