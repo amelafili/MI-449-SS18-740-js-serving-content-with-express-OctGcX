@@ -56,7 +56,7 @@ li {
   display: inline;
 }
 
-a:active {
+a:visited {
   color: green;
 }
 
