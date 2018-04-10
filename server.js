@@ -43,24 +43,28 @@ createArticle({
 app.get('/', function (request, response) {
   response.render('pages/index', {
     articles: articles
+    article: articles
   })
 })
 
 app.get('/sea-turtle', function (request, response) {
   response.render('pages/turtle', {
     articles: articles
+    article: articles[0]
   })
 })
 
 app.get('/painted-turtle', function (request, response) {
   response.render('pages/turtle', {
     articles: articles
+    article: articles[1]
   })
 })
 
 app.get('/box-turtle', function (request, response) {
   response.render('pages/turtle', {
     articles: articles
+    article: articles[2]
   })
 })
 
