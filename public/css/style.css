@@ -44,13 +44,6 @@ h2 {
   width: 50%;
 }
 
-/* On screens that are 992px wide or less, go from four columns to two columns */
-@media screen {
-  body {
-    width: 75%;
-  }
-}
-
 body {
   background-image: url("/images/background.jpg");
   margin: 0 auto;
